@@ -1,8 +1,9 @@
 # computer-vision-models
+# Computer Vision Models
 
-A collection of Computer Vision projects built with PyTorch, OpenCV, and modern deep learning techniques.
+A collection of Computer Vision and Deep Learning projects built with PyTorch.
 
-This repository contains practical projects focused on image classification, object detection, and real-world computer vision applications.
+This repository documents my learning journey in Computer Vision, starting from fundamental image classification.
 
 ---
 
@@ -10,68 +11,51 @@ This repository contains practical projects focused on image classification, obj
 
 | Project | Description | Framework | Status |
 |---------|-------------|-----------|--------|
-| [https://github.com/engsherif777/computer-vision-models/blob/a86e7624dfa532b0938a2a36ef4d57cea79deb6b/CIFAR10_Project.ipynb) | Image classification on the CIFAR-10 dataset using Convolutional Neural Networks | PyTorch | Completed |
+| [CIFAR-10 Image Classification](./CIFAR10_Project.ipynb) | Image classification on the CIFAR-10 dataset using Convolutional Neural Networks | PyTorch | Completed |
 
 ---
 
 ## Tech Stack
 
-- **Python**
-- **PyTorch**
-- **OpenCV**
-- **Ultralytics YOLO**
-- **Albumentations** (data augmentation)
-- **Streamlit** (for demos)
-- **Roboflow** (dataset management)
+- Python
+- PyTorch
+- Torchvision
+- Matplotlib
+- NumPy
 
 ---
 
-## Repository Structure
+## Current Project: CIFAR-10 Classification
 
-```bash
-computer-vision-projects/
-├── document-scanner/
-│   ├── src/
-│   ├── notebooks/
-│   ├── results/
-│   └── README.md
-├── vehicle-classifier/
-├── yolo-detector/
-├── assets/                  # Demo images & videos
-└── README.md
+In this project, I built and trained a Convolutional Neural Network to classify images from the CIFAR-10 dataset into 10 different classes (airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck).
 
-How to Run
+**Key concepts covered:**
+- Building CNN architectures in PyTorch
+- Data loading and preprocessing
+- Training and validation loops
+- Model evaluation
 
-Clone the repository:
+---
 
-Bashgit clone https://github.com/YourUsername/computer-vision-projects.git
-cd computer-vision-projects
+## Future Plans
 
-Create a virtual environment and install dependencies:
+- Document Scanner using OpenCV
+- Custom Object Detection with YOLOv8
+- Plant Disease Classification
+- Real-world Computer Vision applications
 
-Bashpython -m venv venv
-source venv/bin/activate   # On Windows: venv\Scripts\activate
-pip install -r requirements.txt
+---
 
-Navigate to any project folder and follow the instructions in its own README.md.
+## Author
 
+**Sherif Ahmed**  
+Deep Learning & Computer Vision Learner  
 
-Results & Demos
-Coming soon...
-(You can add GIFs, screenshots, or links to Streamlit apps here later)
+- LinkedIn: [Sherif Ahmed](https://www.linkedin.com/in/sherif-ahmed-6824a4385)  
+- Email: sherif99911@outlook.com
 
-Goals
+---
 
-Build strong practical Computer Vision skills
-Create portfolio-ready projects
-Learn modern techniques (YOLO, transfer learning, deployment)
-Prepare for freelance work and job opportunities
+## License
 
-
-Author: Sherif Ahmed
-Computer Vision & Deep Learning Enthusiast
-LinkedIn: www.linkedin.com/in/sherif-ahmed-6824a4385
-Email: sherif99911@outlook.com
-
-License
-This project is open source and available under the MIT License.
+This project is open source and available under the [MIT License](LICENSE).
