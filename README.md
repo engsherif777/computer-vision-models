@@ -10,7 +10,7 @@ This repository contains practical projects focused on image classification, obj
 
 | Project | Description | Framework | Status |
 |---------|-------------|-----------|--------|
-| [CIFAR10_Project.ipynb) | Image classification on the CIFAR-10 dataset using Convolutional Neural Networks | PyTorch | Completed |
+| [https://github.com/engsherif777/computer-vision-models/blob/a86e7624dfa532b0938a2a36ef4d57cea79deb6b/CIFAR10_Project.ipynb) | Image classification on the CIFAR-10 dataset using Convolutional Neural Networks | PyTorch | Completed |
 
 ---
 
